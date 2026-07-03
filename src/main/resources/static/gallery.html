@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | ABC Technologies</title>
+  <meta name="description" content="Browse photos of ABC Technologies' offices, team collaboration, project showcases, and corporate events.">
+  <link rel="canonical" href="https://www.abctechnologies.example/gallery.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">A<span>T</span></span>
+        <span>
+          ABC Technologies
+          <span class="logo-sub">IT SOLUTIONS &amp; CONSULTING</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Request a Consultation</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============ PAGE HEADER ============ -->
+    <section class="page-header">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Gallery</div>
+        <h1>Gallery</h1>
+        <p>A look at our offices, project teams, and company events across Austin, Chicago, and Pune.</p>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section>
+      <div class="container">
+
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="office">Office</button>
+          <button class="filter-btn" data-filter="team">Team Collaboration</button>
+          <button class="filter-btn" data-filter="project">Project Showcase</button>
+          <button class="filter-btn" data-filter="event">Corporate Events</button>
+        </div>
+
+        <div class="gallery-grid">
+
+          <div class="gallery-item" data-category="office">
+            <div class="gallery-photo tone-1">Austin HQ — Main Office Floor</div>
+            <div class="gallery-caption"><span class="cat">Office</span><div class="title">Austin Headquarters Workspace</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="office">
+            <div class="gallery-photo tone-2">Chicago Delivery Center Lobby</div>
+            <div class="gallery-caption"><span class="cat">Office</span><div class="title">Chicago Delivery Center</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="team">
+            <div class="gallery-photo tone-3">Sprint Planning Session</div>
+            <div class="gallery-caption"><span class="cat">Team Collaboration</span><div class="title">DevOps Team Sprint Planning</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="team">
+            <div class="gallery-photo tone-4">Cross-Team Architecture Review</div>
+            <div class="gallery-caption"><span class="cat">Team Collaboration</span><div class="title">Cloud Architecture Review Meeting</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="project">
+            <div class="gallery-photo tone-5">Meridian Health Migration</div>
+            <div class="gallery-caption"><span class="cat">Project Showcase</span><div class="title">Cloud Migration — Meridian Health</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="project">
+            <div class="gallery-photo tone-6">Northgate CI/CD Rollout</div>
+            <div class="gallery-caption"><span class="cat">Project Showcase</span><div class="title">CI/CD Pipeline Rollout — Northgate Financial</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="office">
+            <div class="gallery-photo tone-2">Pune Delivery Center</div>
+            <div class="gallery-caption"><span class="cat">Office</span><div class="title">Pune Delivery Center Workspace</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="event">
+            <div class="gallery-photo tone-1">Annual Engineering Summit</div>
+            <div class="gallery-caption"><span class="cat">Corporate Events</span><div class="title">2025 Annual Engineering Summit</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="team">
+            <div class="gallery-photo tone-3">Security Incident Tabletop Exercise</div>
+            <div class="gallery-caption"><span class="cat">Team Collaboration</span><div class="title">Cybersecurity Tabletop Exercise</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="project">
+            <div class="gallery-photo tone-5">Palisade Retail Cost Optimization</div>
+            <div class="gallery-caption"><span class="cat">Project Showcase</span><div class="title">Cloud Cost Optimization — Palisade Retail</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="event">
+            <div class="gallery-photo tone-4">10-Year Anniversary Celebration</div>
+            <div class="gallery-caption"><span class="cat">Corporate Events</span><div class="title">Company Anniversary Celebration</div></div>
+          </div>
+
+          <div class="gallery-item" data-category="office">
+            <div class="gallery-photo tone-6">Austin HQ Collaboration Lounge</div>
+            <div class="gallery-caption"><span class="cat">Office</span><div class="title">Austin HQ Collaboration Lounge</div></div>
+          </div>
+
+        </div>
+
+        <p class="form-note text-center mt-40">Photography placeholders shown above. Final production assets to be supplied prior to deployment.</p>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta-band">
+      <div class="container">
+        <h2>Interested in visiting our offices?</h2>
+        <p>We welcome prospective clients and candidates to tour our Austin headquarters.</p>
+        <a href="contact.html" class="btn" style="background-color:var(--color-white); color:var(--color-teal-dark);">Schedule a Visit</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <span class="logo-mark">A<span>T</span></span>
+            ABC Technologies
+          </div>
+          <p>Enterprise IT consulting and managed services, headquartered in Austin, Texas, with delivery centers in Chicago and Pune.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html#cloud-solutions">Cloud Solutions</a></li>
+            <li><a href="services.html#devops-consulting">DevOps Consulting</a></li>
+            <li><a href="services.html#web-development">Web Development</a></li>
+            <li><a href="services.html#cybersecurity">Cybersecurity</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <p>4200 Innovation Parkway, Suite 300<br>Austin, TX 78759</p>
+          <p style="margin-top:10px;">+1 (512) 555-0148<br>info@abctechnologies.example</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span id="current-year">2026</span> ABC Technologies. All rights reserved.</span>
+        <span>
+          <a href="contact.html">Privacy Policy</a> &nbsp;&middot;&nbsp;
+          <a href="contact.html">Terms of Service</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

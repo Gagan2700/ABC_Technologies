@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | ABC Technologies</title>
+  <meta name="description" content="Get in touch with ABC Technologies. Find our office address, phone, email, business hours, and send us a message directly.">
+  <link rel="canonical" href="https://www.abctechnologies.example/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">A<span>T</span></span>
+        <span>
+          ABC Technologies
+          <span class="logo-sub">IT SOLUTIONS &amp; CONSULTING</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+          <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Request a Consultation</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============ PAGE HEADER ============ -->
+    <section class="page-header">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">Home</a> / Contact Us</div>
+        <h1>Contact Us</h1>
+        <p>Reach out with questions about our services, an active project, or a potential engagement.</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT CONTENT ============ -->
+    <section>
+      <div class="container">
+        <div class="grid grid-2" style="align-items:flex-start; gap:48px;">
+
+          <!-- Contact Form -->
+          <div>
+            <h2 style="margin-bottom:20px;">Send Us a Message</h2>
+            <div class="form-success" role="status">Thank you for reaching out. A member of our team will respond within one business day.</div>
+
+            <form data-validate novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Full Name</label>
+                  <input type="text" id="contact-name" name="name" required>
+                  <span class="field-error">Please enter your name.</span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-company">Company</label>
+                  <input type="text" id="contact-company" name="company" required>
+                  <span class="field-error">Please enter your company name.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-email">Email Address</label>
+                  <input type="email" id="contact-email" name="email" required>
+                  <span class="field-error">Please enter a valid email address.</span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-phone">Phone Number</label>
+                  <input type="tel" id="contact-phone" name="phone" required>
+                  <span class="field-error">Please enter a valid phone number.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <select id="contact-subject" name="subject" required>
+                  <option value="">Select a topic</option>
+                  <option>General Inquiry</option>
+                  <option>Request a Consultation</option>
+                  <option>Existing Project Support</option>
+                  <option>Partnership Opportunity</option>
+                  <option>Careers</option>
+                </select>
+                <span class="field-error">Please select a subject.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" placeholder="Tell us about your project or question" required></textarea>
+                <span class="field-error">Please enter a message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div>
+            <h2 style="margin-bottom:20px;">Office Information</h2>
+
+            <div class="contact-info-card">
+              <div class="icon-box" style="flex-shrink:0;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Headquarters</h4>
+                <p style="margin-top:6px;">4200 Innovation Parkway, Suite 300<br>Austin, TX 78759, United States</p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="icon-box" style="flex-shrink:0;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p style="margin-top:6px;">Main: +1 (512) 555-0148<br>Support: +1 (512) 555-0172</p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="icon-box" style="flex-shrink:0;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p style="margin-top:6px;">General: info@abctechnologies.example<br>Support: support@abctechnologies.example</p>
+              </div>
+            </div>
+
+            <div class="contact-info-card" style="align-items:flex-start;">
+              <div class="icon-box" style="flex-shrink:0;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div style="width:100%;">
+                <h4 style="margin-bottom:10px;">Business Hours</h4>
+                <table class="hours-table">
+                  <tr><td>Monday – Friday</td><td>8:00 AM – 6:00 PM CT</td></tr>
+                  <tr><td>Saturday</td><td>9:00 AM – 1:00 PM CT</td></tr>
+                  <tr><td>Sunday</td><td>Closed</td></tr>
+                </table>
+                <p class="form-note" style="margin-top:10px;">Managed services clients have access to 24/7 emergency support lines.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MAP ============ -->
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Find Us</span>
+          <h2>Our Headquarters</h2>
+        </div>
+
+        <div class="map-placeholder" role="img" aria-label="Map showing ABC Technologies headquarters location in Austin, Texas">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Interactive map placeholder — embed Google Maps or equivalent service at deployment</span>
+          <span style="font-size:0.85rem;">4200 Innovation Parkway, Suite 300, Austin, TX 78759</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <span class="logo-mark">A<span>T</span></span>
+            ABC Technologies
+          </div>
+          <p>Enterprise IT consulting and managed services, headquartered in Austin, Texas, with delivery centers in Chicago and Pune.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html#cloud-solutions">Cloud Solutions</a></li>
+            <li><a href="services.html#devops-consulting">DevOps Consulting</a></li>
+            <li><a href="services.html#web-development">Web Development</a></li>
+            <li><a href="services.html#cybersecurity">Cybersecurity</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <p>4200 Innovation Parkway, Suite 300<br>Austin, TX 78759</p>
+          <p style="margin-top:10px;">+1 (512) 555-0148<br>info@abctechnologies.example</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span id="current-year">2026</span> ABC Technologies. All rights reserved.</span>
+        <span>
+          <a href="contact.html">Privacy Policy</a> &nbsp;&middot;&nbsp;
+          <a href="contact.html">Terms of Service</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
