@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: abc-company-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: abc-company
+  template:
+    metadata:
+      labels:
+        app: abc-company
+    spec:
+      containers:
+      - name: abc-company
+        image: abc-company:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8081
