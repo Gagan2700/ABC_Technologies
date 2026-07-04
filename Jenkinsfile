@@ -12,12 +12,6 @@ pipeline {
     }
 
     stages {
-        stage('Verify Tools') {
-            steps {
-                bat 'java -version'
-                bat 'mvn -version'
-            }
-        }
 
         stage('Checkout Source Code') {
             steps {
